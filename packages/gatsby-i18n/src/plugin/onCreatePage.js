@@ -14,6 +14,7 @@ const onCreatePage = ({ page, actions }, pluginOptions) => {
       ...page,
       component: redirect,
       context: {
+        ...page.context,
         availableLngs,
         fallbackLng,
         lng: null,
@@ -31,6 +32,7 @@ const onCreatePage = ({ page, actions }, pluginOptions) => {
         ...page,
         path: `/${lng}${page.path}`,
         context: {
+          ...page.context,
           availableLngs,
           fallbackLng,
           lng,

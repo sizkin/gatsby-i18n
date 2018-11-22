@@ -1,7 +1,7 @@
 {
-  "name": "@wapps/gatsby-i18n",
+  "name": "@sckit/gatsby-i18n",
   "description": "Gatsby plugin that provides i18n support",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "hello@webappsolutions.de",
   "repository": "hupe1980/gatsby-i18n",
   "keywords": [
@@ -38,5 +38,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "e0c6da7acc9c052d9f507255d09fb82df8ce6adf"
+  "gitHead": "bfacacb1e6c22680bf24b3d4039e1483ed4a6ea8"
 }

@@ -1,9 +1,10 @@
 {
   "name": "root",
   "private": true,
+  "version": "1.0.6",
   "scripts": {
-    "build": "lerna run build --scope @wapps/*",
-    "build:watch": "lerna run build:watch --parallel --scope @wapps/*",
+    "build": "lerna run build --scope @sckit/*",
+    "build:watch": "lerna run build:watch --parallel --scope @sckit/*",
     "deploy": "lerna run deploy --concurrency 1 --scope gatsby-starter*"
   },
   "devDependencies": {
